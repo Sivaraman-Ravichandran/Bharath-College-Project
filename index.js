@@ -268,7 +268,7 @@ document.querySelectorAll(".contactForm").forEach(function (form) {
     loadingMessage.style.display = "block";
     successMessage.style.display = "none";
 
-    fetch("http://localhost:8080/contact", {
+    fetch("https://bharath-university.onrender.com/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
